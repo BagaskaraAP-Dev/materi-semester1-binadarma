@@ -1,17 +1,17 @@
-# 🎓 Materi Kuliah Semester 1 - Universitas Bina Darma
+#  Materi Kuliah Semester 1 - Universitas Bina Darma
 
 Arsip materi praktikum dan kode program mata kuliah **Algoritma dan Pemrograman** (Semester 1) - **Universitas Bina Darma**, Palembang.
 
 ---
 
-## 👨‍💻 Profil Mahasiswa
+##  Profil Mahasiswa
 - **Nama:** Bagaskara Amukti Palapa
 - **Program Studi:** Teknik Informatika
 - **Perguruan Tinggi:** Universitas Bina Darma
 
 ---
 
-## 📂 Daftar Materi & Kode Program
+##  Daftar Materi & Kode Program
 
 Repository ini berisi implementasi kode program pengenalan bahasa pemrograman:
 
@@ -22,7 +22,7 @@ Repository ini berisi implementasi kode program pengenalan bahasa pemrograman:
 
 ---
 
-## 🚀 Cara Menjalankan Program
+##  Cara Menjalankan Program
 
 ### 1. Java (`belajar.java`)
 Pastikan Java Development Kit (JDK) sudah terpasang.
