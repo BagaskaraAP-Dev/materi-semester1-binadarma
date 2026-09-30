@@ -18,11 +18,11 @@ Repository ini berisi implementasi kode program pengenalan bahasa pemrograman:
 | No | File | Bahasa | Deskripsi | Status |
 |:---:|:---|:---:|:---|:---:|
 | 1 | [`belajar.java`](belajar.java) | Java | Program pengantar konsep dasar sintaksis Java (`Hello, World!`) | ✅ Teruji |
-| 2 | [`belajar.py`](belajar.py) | Python | Program pengantar sintaksis dasar Python (`hello world`) | ✅ Teruji |
+| 2 | [`belajar.py`](belajar.py) | Python | Fundamental sintaksis Python (output teks, variabel, & operasi aritmatika penjumlahan) | ✅ Teruji |
 
 ---
 
-##  Cara Menjalankan Program
+## 🚀 Cara Menjalankan Program
 
 ### 1. Java (`belajar.java`)
 Pastikan Java Development Kit (JDK) sudah terpasang.
@@ -46,7 +46,8 @@ python belajar.py
 ```
 **Output:**
 ```
-hello world
+haiii
+hasil Penjumlahan A + B = 7
 ```
 
 ---
