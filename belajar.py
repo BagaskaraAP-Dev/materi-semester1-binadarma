@@ -8,7 +8,7 @@ kurang = a - b
 kali = a * b
 bagi = a / b
 
-print("\n=== HASIL PERHITUNGAN ===")
+print("HASIL Perhitungan")
 print("Hasil Penjumlahan A + B =", tambah)
 print("Hasil Pengurangan A - B =", kurang)
 print("Hasil Perkalian A * B   =", kali)
