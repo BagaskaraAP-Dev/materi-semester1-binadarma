@@ -19,10 +19,36 @@ MateriSemester1/
 │   │   ├── 📄 latihan_day1.py                # Latihan mandiri
 │   │   └── 📝 DOKUMENTASI.md                 # Dokumentasi lengkap materi Day 1
 │   │
-│   └── 📂 Day2-PythonLooping/                # Day 2: While Loop & Variable Swapping
-│       ├── 📄 materi_day2.py                 # Kode materi saat kelas (refactored)
-│       ├── 📄 latihan_day2.py                # Latihan mandiri terstruktur
-│       └── 📝 DOKUMENTASI.md                 # Dokumentasi lengkap materi Day 2
+│   ├── 📂 Day2-PythonLooping/                # Day 2: While Loop & Variable Swapping
+│   │   ├── 📄 materi_day2.py                 # Kode materi saat kelas (refactored)
+│   │   ├── 📄 latihan_day2.py                # Latihan mandiri terstruktur
+│   │   └── 📝 DOKUMENTASI.md                 # Dokumentasi lengkap materi Day 2
+│   │
+│   └── 📂 Day3-PythonLoopingLanjutan/        # Day 3: While Loop Lanjutan & Studi Kasus Algoritma
+│       ├── 📄 materi_day3.py                 # Kode materi sesi kelas
+│       ├── 📄 latihan_day3.py                # Latihan mandiri & menu CLI interaktif
+│       ├── 📝 DOKUMENTASI.md                 # Dokumentasi komprehensif Day 3
+│       ├── 📂 10-StudiKasus-WhileLoop/       # 10 Studi Kasus Perulangan While
+│       │   ├── 📄 01_celengan_koin_doni.py
+│       │   ├── 📄 02_hitung_mundur_roket.py
+│       │   ├── 📄 03_pembagian_permen_sari.py
+│       │   ├── 📄 04_langkah_kaki_joko.py
+│       │   ├── 📄 05_kasir_donat_bu_ani.py
+│       │   ├── 📄 06_konfirmasi_pesan_minum.py
+│       │   ├── 📄 07_tebak_sandi_brankas.py
+│       │   ├── 📄 08_validasi_nilai_tugas.py
+│       │   ├── 📄 09_dadu_keberuntungan_budi.py
+│       │   ├── 📄 10_penjumlahan_angka_positif.py
+│       │   └── 📄 soal_studi_kasus.txt
+│       └── 📂 Konversi-C-ke-Python/          # 8 Program Migrasi Logika Algoritma C ke Python
+│           ├── 📄 01_check_bilangan_positif.py
+│           ├── 📄 02_bilangan_genap_ganjil.py
+│           ├── 📄 03_evaluasi_nilai_lulus.py
+│           ├── 📄 04_kategori_nilai_huruf.py
+│           ├── 📄 05_diskon_belanja.py
+│           ├── 📄 06_tarif_parkir.py
+│           ├── 📄 07_seleksi_wahana.py
+│           └── 📄 08_autentikasi_login.py
 │
 ├── 📂 Kuliah/                                # Materi & Tugas Perkuliahan
 │   ├── 📄 belajar.py                         # Latihan Python dasar kuliah
@@ -80,6 +106,24 @@ MateriSemester1/
 
 ---
 
+### Day 3: While Loop Lanjutan & Studi Kasus Algoritma (16 Oktober 2026)
+📂 [`CyborgITCenter/Day3-PythonLoopingLanjutan/`](./CyborgITCenter/Day3-PythonLoopingLanjutan/)
+
+| Materi | Deskripsi |
+|--------|-----------|
+| Step Increment Counter | Pola lompatan pencacah (`counter += 2`, `langkah += 100`) |
+| Decrement Loop (Countdown) | Hitung mundur waktu peluncuran roket (`detik -= 1`) |
+| Sentinel / Exit Condition | Terminasi loop berbasis input spesifik (`while donat != 0`) |
+| Infinite Loop & `break` | Perulangan `while True` dengan terminasi kondisi khusus |
+| Validasi Input Pengguna | Boundary checking nilai siswa rentang 0–100 |
+| Akumulator Transaksi | Akumulasi total belanja jajan kasir bertahap |
+| 10 Studi Kasus While | Pemecahan 10 variasi masalah logika perulangan dunia nyata |
+| Konversi Logika C ke Python | Transisi sintaks kontrol alur, percabangan, dan operator dari C ke Python |
+
+📖 **Dokumentasi lengkap:** [`Day3 DOKUMENTASI.md`](./CyborgITCenter/Day3-PythonLoopingLanjutan/DOKUMENTASI.md)
+
+---
+
 ## 🎓 Materi Perkuliahan Universitas Bina Darma
 
 ### 1. Tugas 1: Program Konversi Sistem Bilangan (Java)
@@ -117,6 +161,21 @@ python CyborgITCenter/Day1-PythonFundamental/latihan_day1.py
 python CyborgITCenter/Day2-PythonLooping/latihan_day2.py
 ```
 
+### Python (CYBORG IT CENTER Day 3)
+```bash
+# Menjalankan Materi Kelas Day 3
+python CyborgITCenter/Day3-PythonLoopingLanjutan/materi_day3.py
+
+# Menjalankan Menu Latihan Interaktif Day 3
+python CyborgITCenter/Day3-PythonLoopingLanjutan/latihan_day3.py
+
+# Menjalankan Salah Satu Studi Kasus
+python CyborgITCenter/Day3-PythonLoopingLanjutan/10-StudiKasus-WhileLoop/01_celengan_koin_doni.py
+
+# Menjalankan Program Migrasi C ke Python
+python CyborgITCenter/Day3-PythonLoopingLanjutan/Konversi-C-ke-Python/01_check_bilangan_positif.py
+```
+
 ### Java (Tugas 1 Konversi Bilangan)
 ```bash
 javac Kuliah/KonversiBilangan.java
@@ -141,6 +200,9 @@ java -cp Kuliah belajar
 - [x] Perulangan While (Counter, Sentinel, Validation)
 - [x] Random Module & Game Tebak Angka
 - [x] Interactive Console Menu System
+- [x] While Loop Step Increment & Countdown
+- [x] 10 Studi Kasus Perulangan & Akumulator
+- [x] Migrasi & Penerapan Logika Pemrograman (C ke Python)
 - [x] Konversi Sistem Bilangan (Desimal, Biner, Oktal, Heksa - Bulat & Pecahan)
 - [ ] Looping `for` & `range()`
 - [ ] Fungsi (*Function* & *Parameter*)
