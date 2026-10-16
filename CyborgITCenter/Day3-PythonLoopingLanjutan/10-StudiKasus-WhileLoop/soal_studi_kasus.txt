@@ -1,0 +1,10 @@
+1) Celengan Koin Doni
+2) Hitung Mundur Peluncuran Roket
+3) Pembagian Permen Genap Sari
+4) Langkah Kaki Sehat Pak Joko
+5) Kasir Toko Donat Bu Ani
+6) Konfirmasi Pesan Minum Kantin
+7) Tebak Angka Rahasia Brankas
+8) Validasi Nilai Tugas Siswa
+9) Dadu Keberuntungan Budi
+10) Penjumlahan Angka Positif / Akumulasi Jajan
