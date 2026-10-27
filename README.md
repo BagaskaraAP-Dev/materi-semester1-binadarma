@@ -24,31 +24,39 @@ MateriSemester1/
 │   │   ├── 📄 latihan_day2.py                # Latihan mandiri terstruktur
 │   │   └── 📝 DOKUMENTASI.md                 # Dokumentasi lengkap materi Day 2
 │   │
-│   └── 📂 Day3-PythonLoopingLanjutan/        # Day 3: While Loop Lanjutan & Studi Kasus Algoritma
-│       ├── 📄 materi_day3.py                 # Kode materi sesi kelas
-│       ├── 📄 latihan_day3.py                # Latihan mandiri & menu CLI interaktif
-│       ├── 📝 DOKUMENTASI.md                 # Dokumentasi komprehensif Day 3
-│       ├── 📂 10-StudiKasus-WhileLoop/       # 10 Studi Kasus Perulangan While
-│       │   ├── 📄 01_celengan_koin_doni.py
-│       │   ├── 📄 02_hitung_mundur_roket.py
-│       │   ├── 📄 03_pembagian_permen_sari.py
-│       │   ├── 📄 04_langkah_kaki_joko.py
-│       │   ├── 📄 05_kasir_donat_bu_ani.py
-│       │   ├── 📄 06_konfirmasi_pesan_minum.py
-│       │   ├── 📄 07_tebak_sandi_brankas.py
-│       │   ├── 📄 08_validasi_nilai_tugas.py
-│       │   ├── 📄 09_dadu_keberuntungan_budi.py
-│       │   ├── 📄 10_penjumlahan_angka_positif.py
-│       │   └── 📄 soal_studi_kasus.txt
-│       └── 📂 Konversi-C-ke-Python/          # 8 Program Migrasi Logika Algoritma C ke Python
-│           ├── 📄 01_check_bilangan_positif.py
-│           ├── 📄 02_bilangan_genap_ganjil.py
-│           ├── 📄 03_evaluasi_nilai_lulus.py
-│           ├── 📄 04_kategori_nilai_huruf.py
-│           ├── 📄 05_diskon_belanja.py
-│           ├── 📄 06_tarif_parkir.py
-│           ├── 📄 07_seleksi_wahana.py
-│           └── 📄 08_autentikasi_login.py
+│   ├── 📂 Day3-PythonLoopingLanjutan/        # Day 3: While Loop Lanjutan & Studi Kasus Algoritma
+│   │   ├── 📄 materi_day3.py                 # Kode materi sesi kelas
+│   │   ├── 📄 latihan_day3.py                # Latihan mandiri & menu CLI interaktif
+│   │   ├── 📝 DOKUMENTASI.md                 # Dokumentasi komprehensif Day 3
+│   │   ├── 📂 10-StudiKasus-WhileLoop/       # 10 Studi Kasus Perulangan While
+│   │   │   ├── 📄 01_celengan_koin_doni.py
+│   │   │   ├── 📄 02_hitung_mundur_roket.py
+│   │   │   ├── 📄 03_pembagian_permen_sari.py
+│   │   │   ├── 📄 04_langkah_kaki_joko.py
+│   │   │   ├── 📄 05_kasir_donat_bu_ani.py
+│   │   │   ├── 📄 06_konfirmasi_pesan_minum.py
+│   │   │   ├── 📄 07_tebak_sandi_brankas.py
+│   │   │   ├── 📄 08_validasi_nilai_tugas.py
+│   │   │   ├── 📄 09_dadu_keberuntungan_budi.py
+│   │   │   ├── 📄 10_penjumlahan_angka_positif.py
+│   │   │   └── 📄 soal_studi_kasus.txt
+│   │   └── 📂 Konversi-C-ke-Python/          # 8 Program Migrasi Logika Algoritma C ke Python
+│   │       ├── 📄 01_check_bilangan_positif.py
+│   │       ├── 📄 02_bilangan_genap_ganjil.py
+│   │       ├── 📄 03_evaluasi_nilai_lulus.py
+│   │       ├── 📄 04_kategori_nilai_huruf.py
+│   │       ├── 📄 05_diskon_belanja.py
+│   │       ├── 📄 06_tarif_parkir.py
+│   │       ├── 📄 07_seleksi_wahana.py
+│   │       └── 📄 08_autentikasi_login.py
+│   │
+│   └── 📂 DAY5-Pyton List/                   # Day 5: Python List (Input, Sort & Reverse)
+│       ├── 📄 01_insert_list.py
+│       ├── 📄 02_input_list_for.py
+│       ├── 📄 03_input_list_while.py
+│       ├── 📄 04_sort_dan_reverse.py
+│       ├── 📄 05_sorting_manual.py
+│       └── 📝 DOKUMENTASI.md                 # Dokumentasi lengkap Day 5
 │
 ├── 📂 Kuliah/                                # Materi & Tugas Perkuliahan
 │   ├── 📄 belajar.py                         # Latihan Python dasar kuliah
@@ -124,6 +132,23 @@ MateriSemester1/
 
 ---
 
+### Day 5: Python List — Input, Sort & Reverse (27 Oktober 2026)
+📂 [`CyborgITCenter/DAY5-Pyton List/`](./CyborgITCenter/DAY5-Pyton%20List/)
+
+| Materi | Deskripsi |
+|--------|-----------|
+| `insert()` | Menyisipkan item ke indeks tertentu |
+| Input ke List (`for` + `append()`) | Mengisi list dari input pengguna sebanyak 5 kali |
+| Input ke List (`while` + validasi) | Mengisi list sampai 5 data positif terkumpul |
+| `sort()` vs `sorted()` | Mengurutkan list asli vs membuat list baru yang urut |
+| `reverse=True` vs `reverse()` | Urut besar ke kecil vs sekadar membalik posisi item |
+| Bug Fix `print(nilai.sort)` | Kenapa yang tercetak objek method / `None`, dan cara benarnya |
+| Sorting Manual | Mengurutkan tanpa `sort()` dengan mencari nilai terkecil berulang |
+
+📖 **Dokumentasi lengkap:** [`Day5 DOKUMENTASI.md`](./CyborgITCenter/DAY5-Pyton%20List/DOKUMENTASI.md)
+
+---
+
 ## 🎓 Materi Perkuliahan Universitas Bina Darma
 
 ### 1. Tugas 1: Program Konversi Sistem Bilangan (Java)
@@ -176,6 +201,12 @@ python CyborgITCenter/Day3-PythonLoopingLanjutan/10-StudiKasus-WhileLoop/01_cele
 python CyborgITCenter/Day3-PythonLoopingLanjutan/Konversi-C-ke-Python/01_check_bilangan_positif.py
 ```
 
+### Python (CYBORG IT CENTER Day 5)
+```bash
+python "CyborgITCenter/DAY5-Pyton List/04_sort_dan_reverse.py"
+python "CyborgITCenter/DAY5-Pyton List/05_sorting_manual.py"
+```
+
 ### Java (Tugas 1 Konversi Bilangan)
 ```bash
 javac Kuliah/KonversiBilangan.java
@@ -204,6 +235,7 @@ java -cp Kuliah belajar
 - [x] 10 Studi Kasus Perulangan & Akumulator
 - [x] Migrasi & Penerapan Logika Pemrograman (C ke Python)
 - [x] Konversi Sistem Bilangan (Desimal, Biner, Oktal, Heksa - Bulat & Pecahan)
+- [x] List: `insert()`, `append()`, `sort()`, `sorted()`, `reverse=True` & Sorting Manual
 - [ ] Looping `for` & `range()`
 - [ ] Fungsi (*Function* & *Parameter*)
 - [ ] Struktur Data (List, Tuple, Dictionary, Set)
